@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 
-/*
+
 figure {
     background: #ffffff !important;
     display: block;
@@ -41,7 +41,7 @@ figcaption {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    left: 0px;
+    left:- 40px;
     
     
 }
@@ -59,14 +59,14 @@ figcaption {
 }
 
 
-.slider .center {
+.slider .multiple {
     transform: scale(1.2);
     display: block;
     z-index: 2;
     position: relative;
 }
 
-*/
+
 
 html, body {
     margin: 0;
@@ -78,7 +78,7 @@ html, body {
   }
 
   .slider {
-      width: 50%;
+      
       margin: 100px auto;
   }
 
@@ -113,4 +113,32 @@ html, body {
       background: black;
       width: 40%;
       height:10%;
+  }
+
+
+
+
+  .slider-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  .slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
   }
